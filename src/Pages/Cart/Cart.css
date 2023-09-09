@@ -1,0 +1,21 @@
+.cart-main {
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .cart-main {
+    padding: 1rem 7rem;
+  }
+}

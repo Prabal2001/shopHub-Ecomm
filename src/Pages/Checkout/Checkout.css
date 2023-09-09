@@ -1,0 +1,87 @@
+.checkout-container {
+  padding: 1.7rem;
+  box-shadow: 0px 5px 15px rgba(90, 90, 90, 0.35);
+  margin: 1rem;
+  margin-top: 3rem;
+  width: 28rem;
+  border-radius: 0.3rem;
+}
+.checkout-addresses {
+  margin-top: 1.5rem;
+}
+.address-name {
+  color: var(--primary);
+}
+.delivery-address {
+  font-size: 0.8rem;
+}
+
+.place-order-btn {
+  background-color: var(--primary);
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0.3rem;
+  margin-top: 0.6rem;
+  border: 1px solid var(--primary);
+  border-radius: 0.3rem;
+}
+
+.place-order-btn:hover {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.single-checkout-address {
+  box-shadow: 0px 5px 15px rgba(90, 90, 90, 0.35);
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.checkout-addr-name {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.checkout-total {
+  font-size: 1.1rem;
+}
+.select-address-heading {
+  color: var(--gray);
+}
+
+.order-succesfully {
+  color: var(--green);
+}
+.truck-gif-box {
+  width: 200px;
+  margin: auto;
+}
+
+.truck-gif {
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.order-will-deliever {
+  font-size: 1.5rem;
+  color: var(--green);
+}
+
+@media (min-width: 600px) {
+  .checkout-main-container {
+    margin: 1rem 5rem;
+  }
+  .single-checkout-address {
+    margin: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .checkout-main-container {
+    margin: 1rem 12rem;
+  }
+}

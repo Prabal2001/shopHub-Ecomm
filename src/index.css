@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300&family=Rubik:wght@300&display=swap");
+
+:root {
+  --primary: #2874f0;
+  --white: #fff;
+  --alice-blue: #eff6ff;
+  --header-color: #363d55;
+  --green: #20aa20;
+  --red: red;
+  --gray: gray;
+  --lightgray: #efefef;
+  --placeholder-color: rgb(176, 176, 176);
+}
+
+::placeholder {
+  color: var(--placeholder-color);
+  opacity: 1;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary);
+}
