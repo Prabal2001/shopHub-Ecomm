@@ -37,6 +37,6 @@
 - Fully Responsive
 - Toasts
   ## **Demo-**
-  https://shopxhub.netlify.app/
+  https://shophubb-ecom.netlify.app/
 
 </div>
