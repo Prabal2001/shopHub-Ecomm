@@ -1,4 +1,4 @@
-# totalitycorp-frontend-challenge
+
 
 # ShopHub 
 -An Ecommerce website which contains products for men,women and children as well.It also contains filter options such as Sort by-ratings,price etc. A responsive user interface 
